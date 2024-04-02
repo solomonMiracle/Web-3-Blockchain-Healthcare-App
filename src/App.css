@@ -1,0 +1,91 @@
+.app-container {
+  position: relative;
+  padding: 4px;
+  background-color: #13131a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+.sidebar-container {
+  display: none; /* Hidden by default */
+}
+
+.main-content-container {
+  flex: 1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-right: 5px;
+}
+/* Animation */
+@keyframes movement {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+
+  .App {
+    height: 100vh;
+    width: 100vw;
+    padding: 0 2rem;
+    overflow: overlay;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .App > .page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+  }
+  
+  /* Scrollbar */
+  
+  .App::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .App::-webkit-scrollbar-track {
+    background: white;
+    margin-top: 84px;
+    margin-bottom: 8px;
+    border-radius: 1000px;
+  }
+  
+  .App::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 1000px;
+  }
+  
+  .App::-webkit-scrollbar-thumb:hover {
+    background: #6C6B70;
+  }
+  
+
+  .nav{
+   
+max-width: 1280px;
+
+@media (min-width: 640px) { 
+  padding-right: 1.25rem; 
+ }
+  }
+
+  .side{
+    display: none; 
+position: relative; 
+margin-left: 70rem; 
+
+@media (min-width: 640px) { 
+  display: flex; 
+ }
+  }

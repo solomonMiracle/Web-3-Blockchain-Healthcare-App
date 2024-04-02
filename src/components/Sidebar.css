@@ -1,0 +1,22 @@
+.sidebar{
+display: flex; 
+position: fixed; 
+top: 1rem; 
+margin-top: 4rem;
+flex-direction: column; 
+justify-content: space-between; 
+align-items: center; 
+height: 93vh;
+}
+
+.bar{
+display: flex; 
+padding-top: 1rem;
+padding-bottom: 1rem; 
+margin-top: 3rem; 
+flex-direction: column; 
+justify-content: space-between; 
+align-items: center; 
+background: transparent;
+width: 76px;
+}

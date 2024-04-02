@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@400;700&family=Borel&family=Cairo&family=EB+Garamond&family=Heebo&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+SC&family=Pacifico&family=Philosopher&family=Protest+Guerrilla&family=Reenie+Beanie&family=Sacramento&family=Shadows+Into+Light&display=swap');
+
+.footer {
+  background-color: white transparent; /* Transparent white background */
+  backdrop-filter: blur(8px); /* Apply blur effect */
+  padding: 32px var(--px-page-padding);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Add a subtle border */
+  box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.1); /* Add shadow at the bottom */
+}
+
+.footer > .links {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.footer > .links > a {
+  color: white;
+  font-size: 16px;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 700;
+  transition: font-variation-settings 0.15s ease, text-shadow 0.5s ease;
+  text-decoration: none;
+}
+
+.footer > .links > a:hover {
+  color: red;
+  font-variation-settings: 'MONO' 0, 'CASL' 1, 'wght' 800, 'slnt' -15, 'CRSV' 0;
+}
+
+.explain p {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 768px) { 
+
+
+  .explain p {
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+  }
+
+  .footer > .links > a {
+    color: white;
+    font-size: .8rem;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 700;
+    transition: font-variation-settings 0.15s ease, text-shadow 0.5s ease;
+    text-decoration: none;
+  }
+ }
+
+
+ @media (min-width: 640px) { 
+
+
+  .explain p {
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+  }
+
+  .footer > .links > a {
+    color: white;
+    font-size: .8rem;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 700;
+    transition: font-variation-settings 0.15s ease, text-shadow 0.5s ease;
+    text-decoration: none;
+  }
+ }

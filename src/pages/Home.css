@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@400;700&family=Borel&family=Cairo&family=Dosis:wght@200..800&family=EB+Garamond&family=Heebo&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Pacifico&family=Philosopher&family=Protest+Guerrilla&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Shadows+Into+Light&display=swap');
+
+.home {
+  
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  z-index: 0;
+  overflow: hidden;
+  padding-bottom: 128px;
+  
+
+  
+}
+
+.home > .first .thing {
+  position: absolute;
+  width: 50%;
+  right: var(--px-page-padding);
+  z-index: -1;
+  top: -100px;
+}
+
+.home > .title {
+  margin-top: 1rem;
+  margin-bottom: 64px;
+  font-size: 2.5rem;
+  text-align: center;
+  color: white; /* Slightly darker text color */
+  text-shadow: 6px 6px 6px black;
+  text-align: justify;
+}
+
+
+@keyframes glowTitle {
+  0% {
+    text-shadow: 
+      0 0 10px rgba(0, 0, 0, 0.5), /* Black */
+      0 0 20px rgba(0, 0, 0, 0.7), /* Black */
+      0 0 30px rgba(0, 0, 0, 0.8), /* Black */
+      0 0 40px white; /* Deep Blue */
+  }
+  50% {
+    text-shadow: 
+      0 0 20px rgba(0, 0, 0, 0.7), /* Black */
+      0 0 30px rgba(0, 0, 0, 0.8), /* Black */
+      0 0 40px rgba(0, 0, 0, 0.9), /* Black */
+      0 0 50px rgba(4, 4, 31, 0.5); /* Deep Blue */
+  }
+  100% {
+    text-shadow: 
+      0 0 30px rgba(0, 0, 0, 0.9), /* Black */
+      0 0 40px rgba(0, 0, 0, 1), /* Black */
+      0 0 50px rgba(0, 0, 0, 1), /* Black */
+      0 0 60px rgba(5, 5, 32, 0.7); /* Deep Blue */
+  }
+}
+
+.home > .first .wrapper .big-title {
+  font-size: 2.7rem;
+  padding-top: 4rem;
+  font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 600, 'slnt' 0, 'CRSV' 0;
+  transition: font-variation-settings 0.2s ease;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+  animation: glowTitle 20s infinite alternate;
+}
+
+
+
+.first .wrapper {
+
+margin-top: 6rem;
+padding: 1rem 3rem;
+
+
+}
+
+
+.home > .first .feature-list {
+  margin-top: 32px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 16px;
+  padding: 16px 32px;
+  backdrop-filter: blur(32px);
+  border: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+.home > .first .feature-list > .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+  color: var(--accent);
+  
+}
+
+.home > .first .feature-list > .devider {
+  width: 1px;
+  height: 16px;
+  background-color: var(--text-1);
+}
+
+.home > .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  align-self: stretch;
+}
+
+
+.blockchain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Soft white background */
+  backdrop-filter: blur(8px);
+  text-align: center;
+  padding: 4rem 2rem; /* Increased padding for better spacing */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.blockchain h2 {
+  padding: 1rem 0; /* Reduced padding */
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 3rem; /* Slightly reduced font size */
+  color: #333; /* Darker text color for better contrast */
+}
+
+
+/* CSS for the enhanced second heading */
+/* Define the keyframes for typing and erasing */
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+
+.Third-heading {
+  color: white; /* Slightly darker text color */
+  text-shadow: 6px 6px 6px black;
+  text-align: justify;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 1rem;
+}
+
+
+
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* Apply the animation to the .second-heading element */
+.second-heading {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-size: 1.4rem;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  overflow: hidden; /* Hide overflowing characters */
+  white-space: nowrap; /* Prevent line breaks */
+
+
+  text-shadow: 6px 6px 6px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries for tablet screens */
+@media screen and (max-width: 1024px) {
+  .home > .title {
+    font-size: 1rem; /* Adjust font size for tablet */
+  }
+  
+  .home > .first .wrapper .big-title {
+    font-size: 1rem; /* Adjust font size for tablet */
+  }
+  
+  .home > .first .feature-list > .item {
+    font-size: 1rem; /* Adjust font size for tablet */
+  }
+  
+  .blockchain h2 {
+    font-size: 1rem; /* Adjust font size for tablet */
+  }
+  
+  .second-heading {
+    font-size: .8rem; /* Adjust font size for tablet */
+  }
+
+  .home > .first .feature-list > .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    gap: 16px;
+    font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+    color: var(--accent);
+    
+  }
+}
+
+/* Media queries for mobile screens */
+@media screen and (max-width: 768px) {
+  .home {
+    padding: 0 3vw; /* Adjust padding for mobile */
+  }
+  
+  .home > .title {
+    font-size: .6rem; /* Adjust font size for mobile */
+  }
+  
+  .home > .first .wrapper .big-title {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+  
+  .home > .first .feature-list > .item {
+    font-size: 4vw; /* Adjust font size for mobile */
+  }
+  
+  .blockchain h2 {
+    font-size: 6vw; /* Adjust font size for mobile */
+  }
+  
+  .second-heading {
+    font-size: .7; /* Adjust font size for mobile */
+  }
+
+  .home > .first .feature-list > .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    gap: 16px;
+    font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+    color: var(--accent);
+    
+  }
+  
+
+  
+.Call_to_action{
+
+  padding: .5rem;
+  border: .2rem solid white transparent;
+  background-color: red;
+  font-size: .8rem;
+
+}
+}
+
+
+
+.Call_to_action{
+
+  padding: .5rem;
+  border: .2rem solid white transparent;
+  background-color: red;
+
+}
+
+.actiondiv{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+
+
+.campaigdetails{
+  background-color: black;
+  padding: 4rem 4rem;
+}

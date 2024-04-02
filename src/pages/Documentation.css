@@ -1,0 +1,189 @@
+/* Documentation.css */
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@400;700&family=Borel&family=Cairo&family=Dosis:wght@200..800&family=EB+Garamond&family=Heebo&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+SC&family=Ojuju:wght@200..800&family=Pacifico&family=Philosopher&family=Protest+Guerrilla&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Shadows+Into+Light&display=swap');
+
+.documentation {
+  position: relative;
+  overflow: hidden;
+
+  animation: moveBackground 30s linear infinite; /* Adjust the duration and timing function as needed */
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0; /* Initial position */
+  }
+  100% {
+    background-position: 100% 0; /* Move the background to the right */
+  }
+}
+
+
+.glass-morphism {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Adjust height of glass morphism */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.content {
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+  padding: 4rem;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  
+}
+
+.documentation h1{
+  text-align: center; /* Center align headings */
+  margin-bottom: 2rem;
+  font-family: 'Protest Guerrilla', sans-serif;
+  font-size: 2rem;
+  color: white; /* Dark text color */
+  text-shadow: 6px 6px 6px black;
+  
+}
+
+.documentation h2{
+  text-align: center; /* Center align headings */
+  margin-bottom: 2rem;
+  font-family: 'Protest Guerrilla', sans-serif;
+  font-size: 1.7rem;
+  color: white; /* Dark text color */
+  text-shadow: 6px 6px 6px black;
+}
+
+.documentation .section {
+  margin-bottom: 2rem;
+  background-color: white transparent; /* Semi-transparent white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  backdrop-filter: blur(5px);
+}
+
+.documentation p {
+  margin-bottom: 1rem;
+  padding: 0 5rem;
+  
+  font-size: 1rem;
+  text-align: center;
+  color: white; /* Slightly darker text color */
+  text-shadow: 6px 6px 6px black;
+  text-align: justify;
+
+
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+ 
+}
+
+.documentation .button-container {
+  margin-top: 2rem;
+}
+
+.get-started-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .content {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    padding: 4rem 0;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    
+  }
+  .documentation h1{
+    text-align: center; /* Center align headings */
+    margin-bottom: 2rem;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 1rem;
+    color: white; /* Dark text color */
+    text-shadow: 6px 6px 6px black;
+    
+  }
+  
+  .documentation h2{
+    text-align: center; /* Center align headings */
+    margin-bottom: 2rem;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 1rem;
+    color: white; /* Dark text color */
+    text-shadow: 6px 6px 6px black;
+  }
+  
+  .documentation .section {
+    margin-bottom: 2rem;
+    background-color: white transparent; /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    backdrop-filter: blur(5px);
+  }
+  
+  .documentation p {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    
+    font-size: .8rem;
+    text-align: center;
+    color: white; /* Slightly darker text color */
+    text-shadow: 6px 6px 6px black;
+    text-align: justify;
+  
+  
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+   
+  }
+  
+  .documentation .button-container {
+    margin-top: 2rem;
+  }
+  
+  .get-started-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+}

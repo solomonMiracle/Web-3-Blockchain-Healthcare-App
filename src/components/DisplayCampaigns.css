@@ -1,0 +1,48 @@
+.font-epilogue {
+    font-family: 'Epilogue', sans-serif;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-18px {
+    font-size: 18px;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .mt-20px {
+    margin-top: 20px;
+  }
+  
+  .gap-26px > * + * {
+    margin-left: 26px;
+  }
+  
+  .text-818183 {
+    color: #818183;
+  }
+  
+  .w-100px {
+    width: 100px;
+  }
+  
+  .h-100px {
+    height: 100px;
+  }
+  
+  .object-contain {
+    object-fit: contain;
+  }
+  
+  .leading-30px {
+    line-height: 30px;
+  }
+  

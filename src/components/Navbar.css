@@ -1,0 +1,110 @@
+.navbar{
+display: flex; 
+position: fixed;
+width: 95%;
+z-index: 3;
+flex-direction: column-reverse; 
+gap: 1rem; 
+justify-content: space-between; 
+margin-bottom: 35px;
+background-color:black transparent;
+backdrop-filter: blur(8px);
+
+
+
+}
+
+
+.document{
+  padding-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) { 
+
+
+
+ .document{
+  padding-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-size: .8rem;
+}
+}
+
+.connect{
+display: none; 
+flex-direction: row; 
+
+justify-content: flex-end; 
+
+@media (min-width: 640px) { 
+  display: flex; 
+ }
+
+ 
+ .document{
+  padding-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-size: .8rem;
+}
+}
+
+.search{
+display: flex; 
+justify-content: center; 
+align-items: center; 
+height: 100%; 
+cursor: pointer; 
+width: 72px;
+background: black transparent;
+
+}
+
+
+
+.nav2{
+display: flex;
+margin: 0 2rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+padding-right: 0.5rem; 
+padding-left: 1rem; 
+flex-direction: row; 
+max-width: 458px;
+height: 52px;
+background: #1c1c24;
+
+
+@media (max-width: 1024px) { 
+  display: flex;
+  flex-direction: column;
+ }
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.Call_to_action{
+  padding: .5rem;
+  border: .2rem solid white transparent;
+  background-color: red;
+}
+
+
+.custm{
+  padding: .5rem;
+  border: .2rem solid white transparent;
+  background-color: red;
+}
