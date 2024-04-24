@@ -12,7 +12,7 @@ const Documentation = () => {
         <section className="section">
           <h2>Introduction</h2>
           <p>
-            This documentation provides an overview of the HealthCare Funding prototype. The prototype was developed by Miracle Agholor, a final year student at the University of East London, under the supervision of Ms. Shaheen Khatoon.
+            This documentation provides an overview of the HealthCare Funding prototype. The prototype was developed by Miracle Agholor, a final year student at the University of East London, under the supervision of Dr. Shaheen Khatoon.
           </p>
           <p>
           The Healthcare Blockchain Crowdfunding Application is an innovative and groundbreaking prototype that aims to revolutionize the healthcare crowdfunding landscape through the power of blockchain technology and smart contracts. Developed as part of a dissertation on designing and implementing a web 3.0 blockchain crowdfunding application, this project is under the supervision of Dr. Shaheen Khatoon, a Senior Lecturer at the University of East London with expertise in various cutting-edge technologies.
