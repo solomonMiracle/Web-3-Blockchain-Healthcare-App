@@ -44,14 +44,14 @@ const CreateCampaign = () => {
     <div className="bg-[darkblue] flex justify-center items-center flex-col rounded-[10px] sm:p-10 p-4">
       {isLoading && <Loader />}
       <div className="flex justify-center items-center p-[16px] sm:min-w-[380px] bg-[black]">
-        <h1 className="font-epilogue font-bold sm:text-[25px] text-[18px] leading-[38px] text-white">Start Fundraising</h1>
+        <h1 className="font-epilogue font-bold sm:text-[25px] text-[18px] leading-[38px] text-white">INITIATIVE OR NEED</h1>
       </div>
 
       <form onSubmit={handleSubmit} className="w-full mt-[65px] flex flex-col gap-[30px]">
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
             labelName="Your Name *"
-            placeholder="John Doe"
+            placeholder="Please Write Name Organization/Individual"
             inputType="text"
             value={form.name}
             handleChange={(e) => handleFormFieldChange('name', e)}
@@ -66,8 +66,8 @@ const CreateCampaign = () => {
         </div>
 
         <FormField 
-            labelName="Story *"
-            placeholder="Write your story"
+            labelName="What's your Motivation?"
+            placeholder="Write your Motivation"
             isTextArea
             value={form.description}
             handleChange={(e) => handleFormFieldChange('description', e)}
@@ -77,8 +77,8 @@ const CreateCampaign = () => {
 
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
-            labelName="Goal *"
-            placeholder="ETH 0.50"
+            labelName="Funding Needed"
+            placeholder="0.00 in ETHERUEM"
             inputType="text"
             value={form.target}
             handleChange={(e) => handleFormFieldChange('target', e)}
@@ -93,8 +93,8 @@ const CreateCampaign = () => {
         </div>
 
         <FormField 
-            labelName="Campaign image *"
-            placeholder="Place image URL of your campaign"
+            labelName="Project Image *"
+            placeholder="Place the Image url for your Project or Research"
             inputType="url"
             value={form.image}
             handleChange={(e) => handleFormFieldChange('image', e)}
@@ -103,7 +103,7 @@ const CreateCampaign = () => {
           <div className="flex justify-center items-center mt-[40px]">
             <CustomButton 
               btnType="submit"
-              title="PLACE ORDER"
+              title="INITIALIZE CAMPAIGN"
               styles="bg-[#1dc071]"
             />
           </div>
