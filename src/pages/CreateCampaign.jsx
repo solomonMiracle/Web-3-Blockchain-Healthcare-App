@@ -103,7 +103,7 @@ const CreateCampaign = () => {
           <div className="flex justify-center items-center mt-[40px]">
             <CustomButton 
               btnType="submit"
-              title="Submit new campaign"
+              title="PLACE ORDER"
               styles="bg-[#1dc071]"
             />
           </div>
