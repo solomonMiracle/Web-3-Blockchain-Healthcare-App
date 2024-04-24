@@ -4,7 +4,7 @@
 .documentation {
   position: relative;
   overflow: hidden;
-
+  background-color: darkblue;
   animation: moveBackground 30s linear infinite; /* Adjust the duration and timing function as needed */
 }
 
