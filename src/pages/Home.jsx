@@ -23,7 +23,7 @@ const Home = () => {
 
       <br />
       
-      <div className='second-heading'><h3>Blockchain Solution for Medical Research Funding and HealthCare Financing</h3>
+      <div className='second-heading'><h3>A Web 3.0 Blockchain Crowdfunding funding platform for Medical and Research Needs</h3>
     </div>
     <div className='Third-heading'><h3>Revolutionizing the Crowdfunding system within the Blockchain Technology</h3>
     </div>
