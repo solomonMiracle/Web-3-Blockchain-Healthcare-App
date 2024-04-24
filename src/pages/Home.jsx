@@ -18,8 +18,7 @@ const Home = () => {
      
      <div className='first'>
      <div className='wrapper'><p className='big-title'>
-       Web 3.0 Blockchain HealthCare<br />
-        Crowdfunding Application
+      Blockchain System for Medical Research Funding
       </p>
 
       <br />
